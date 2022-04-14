@@ -9,8 +9,7 @@
 <br>
 - Flex Container
   - display:flex 값이 들어 있는것
-<br>
-- Flex items
+- Flex items  
   - container의 자식 요소들
 
 ### 속성
@@ -52,6 +51,8 @@ justify-content: center;<br>
 ![justify-content](./images/img3.png) <br>
 
 ### align-content 교차축(수직) <b>여러줄</b> 정렬 방법
+-  algin-items 랑 헷갈리지 말 것  
+
 align-content | 속성
 :--:|:--:
 flex-start | flex items를 시작점으로 정렬
@@ -59,8 +60,20 @@ flex-end | flex items를 끝점으로 정렬
 center | flex items를 가운데 정렬
 
 align-content 없을때    align-content:flex-start<br> 
-<img src="./images/img4.png" width="30%">
-<img src="./images/img5.png" width="30%"> <br>
+<img src="./images/img4.png" width="20%">
+<img src="./images/img5.png" width="20%"> <br>
 align-content:flex-end align-content:center <br><br>
-<img src="./images/img6.png" width="30%">
-<img src="./images/img7.png" width="30%">
+<img src="./images/img6.png" width="20%">
+<img src="./images/img7.png" width="20%">
+
+### algin-items 교차 축의 한 줄 정렬 방법
+
+align-items | 속성
+:--:|:--:
+flex-start | flex items를 각 줄의 시작점으로 정렬
+flex-end | flex items를 각 줄의 끝점으로 정렬
+center | flex items를 각 줄의 가운데 정렬
+baseline | flex items를 각 줄의 문자 기준선에 정렬
+
+순서대로 flex-start, center, flex-end
+<img src="./images/img8.png">
