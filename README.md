@@ -12,7 +12,7 @@
 - Flex items  
   - container의 자식 요소들
 
-### 속성
+# flex의 속성
 Flex Container | Flex Items
 :--:| :--:
 display | <b>order
@@ -22,8 +22,12 @@ flex-flow | flex
 <b>justify-content | <b>flex-basis
 algn-content | align-self
 <b>algn-items |
+<br>
 
-#### flex-wrap
+----
+## Flex Container의 속성
+
+### flex-wrap
 flex-wrap | 속성
 :--:| :--:
 nowrap | 묶음(줄바꿈)없음
@@ -77,3 +81,24 @@ baseline | flex items를 각 줄의 문자 기준선에 정렬
 
 순서대로 flex-start, center, flex-end
 <img src="./images/img8.png">
+
+<br>
+
+---
+## Flex Items 의 속성
+### order
+0 : 순서 없음
+숫자 : 숫자가 작을 수록 먼저 정렬 된다
+
+### flex-grow
+0 : 증가 비율 없음
+숫자 : 증가 비율
+
+### flex-shirink
+1 : flex container 너비에 따라 감소 비율 적용
+숫자 : 감소 비율
+- flex-shirink:0 이면 컨테이너 너비를 넘치게 표현된다
+
+### flex-basis
+auto : 요소의 내용 너비
+단위 : px, em, rem 등 단위로 지정

@@ -6,42 +6,46 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 200px;
   margin: 10px;
 }
 .container-2{ 
   background-color: royalblue;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  width: 400px;
-  height: 300px;
+  align-items: flex-start;
+  width: 500px;
+  height: 200px;
   margin: 10px;
 }
 .container-3{ 
   background-color: royalblue;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  width: 400px;
-  height: 300px;
+  align-items: flex-start;
+  width: 500px;
+  height: 200px;
   margin: 10px;
 }
 .container .item , .container-2 .item, .container-3 .item {
-  width:100px;
-  height: 100px;
+  width:80px;
+  height: 80px;
   border: 3px dashed red;
-  margin: 3px;
+  margin:3px;
+  
 }
 .container .item:nth-child(1) , .container-2 .item:nth-child(1) , .container-3 .item:nth-child(1){
   background-color: orange;
+  
 }
 .container .item:nth-child(2) , .container-2 .item:nth-child(2) , .container-3 .item:nth-child(2){
   background-color: orange;
+  flex-grow: 2;
 }
 .container .item:nth-child(3) , .container-2 .item:nth-child(3) , .container-3 .item:nth-child(3){
   background-color: orange;
+  flex-grow: 1;
 }
 .container .item:nth-child(4) , .container-2 .item:nth-child(4) , .container-3 .item:nth-child(4){
   background-color: orange;
