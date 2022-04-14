@@ -59,9 +59,8 @@ flex-end | flex items를 끝점으로 정렬
 center | flex items를 가운데 정렬
 
 align-content 없을때    align-content:flex-start<br> 
-<img src="./images/img4.png" width="40%">
-<img src="./images/img5.png" width="40%"> <br>
-align-content:flex-end <br>
-<img src="./images/img6.png" width="40%"><br>
-align-content:flex-end <br>
-<img src="./images/img7.png" width="40%">
+<img src="./images/img4.png" width="30%">
+<img src="./images/img5.png" width="30%"> <br>
+align-content:flex-end align-content:center <br><br>
+<img src="./images/img6.png" width="30%">
+<img src="./images/img7.png" width="30%">
